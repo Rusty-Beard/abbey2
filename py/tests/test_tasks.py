@@ -6,7 +6,6 @@ import ctl.tasks
 from app import app
 
 
-
 class TasksViewTestCase(unittest.TestCase):
     @patch('dao.utils.mysql')
     def test_connect_to_database(self, mysql_connector):
